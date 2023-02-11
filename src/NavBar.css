@@ -1,0 +1,25 @@
+.navbar{
+    position: fixed !important;
+    z-index: 3;
+    top: 0px;
+    background-color:#fff;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+.navbar-nav a{
+    color:rgb(168, 45, 73);
+    text-transform: uppercase ;
+    font-weight: bold;
+    font-size: 15px;
+    text-decoration: none;
+    margin: 0px 5px;
+    padding: 5px 5px;
+}
+
+Nav .navbar-nav a:hover {
+    background-color:rgb(168, 45, 73);
+    color: white ;
+    transition: all 1s ease;
+}

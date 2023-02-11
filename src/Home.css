@@ -1,0 +1,227 @@
+header {
+    margin-top: 100px;
+}
+
+header h2 {
+    font-size: 50px;
+    color: rgb(67, 18, 29);
+}
+
+header p , 
+.sec-one p , 
+.ingredients p{
+    letter-spacing: 1px;
+
+}
+header button , 
+.sec-one button , 
+.ingredients button {
+    width : 150px;
+    height : 50px;
+    background-color: #ac2947;
+    border: 1px solid #7c0f28 ;
+    text-align:center;
+    box-sizing: border-box;
+    color:#fff;
+    margin: 20px 10px 20px 0px;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+header .bt-right {
+    background-color:rgb(255, 255, 255);
+    color:rgb(27, 23, 23);
+    border: none;
+    
+} 
+header .bt-right:hover {
+    background-color: #fff;
+    color: #ac2947;
+    border: 2px solid  #ac2947;
+    transition: .2s ease-in-out;
+}
+header .bt-left:hover ,
+.sec-one button:hover , 
+.ingredients button:hover {
+    background-color: #fff;
+    color:#ac2947;
+    transition: .2s ease-in-out;
+
+}
+
+header img , 
+.sec-one img ,
+.ingredients img {
+    width: 100%; 
+    border-radius: 3%;
+}
+.numbers {
+    background-color:rgb(168, 45, 73);
+    color: white;
+    padding: 30px 0px;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+    overflow: hidden;
+    font-family: 'Tajwal';
+    margin-top: 40px;
+}
+
+.numbers h3 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 10px 0px
+}
+
+.numbers h6 {
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+.sec-one ,
+.ingredients {
+    margin-top: 30px;
+    width: 100%;
+    /* height: auto; */
+    padding: 40px 35px;
+    overflow: hidden;
+}
+.sec-one h2 , 
+.ingredients h2 {
+    font-size: 40px;
+    font-family: "Tajawal";
+    color: rgb(67, 18, 29);
+    width: 80%;
+    font-weight: bold;
+    margin-top: 50px;
+}
+
+.ingredients ul {
+    padding: 0px;
+}
+.ingredients ul li {
+    color: #333;
+}
+
+.pride {
+    background-image: url("../src/Asets/images/tyler-nix-WH9NSXbTpiA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.pride h2 {
+    color: #311a1f;
+    font-size: 35px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    font-family: 'Tajawal';
+    margin-top: 70px;
+}
+
+.pride p {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+
+.blogs {
+    margin-top: 30px;
+    padding: 25px 0px;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+.blogs h2 {
+    font-size: 45px;
+    text-align: center;
+    color: rgb(67, 18, 29);
+    width: 100%;
+    margin-top: 20px;
+}
+
+.blogs p {
+    font-size: 15px;
+    color: #333;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 15px;
+}
+.blogs img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+.blogs h4 {
+    color: rgb(67, 18, 29);
+    font-family: "Tajawal";
+    font-size: 25px;
+    margin-top: 15px;
+}
+.blogs span {
+    display: block;
+    color: #444;
+    font-family: "Tajawl";
+    margin: 10px 0px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.blogs h6 {
+    color: #a82d49;
+    font-size: 25px;
+    font-family: "Tajawal";
+}
+.blogs button {
+    width: 140px;
+    height: 40px;
+    text-align: center;
+    color: #fff;
+    background-color:  #ac2947;
+    border: none;
+    font-weight: bold;
+    transition: .3s ease-in-out;
+}
+.blogs button:hover {
+    background-color: #fff;
+    color: #ac2947;
+    border: 1px solid #ac2947;
+}
+/* slider section*/
+.slider {
+    background-color: #ac2947;
+    width: 100%;
+    max-width: 100%;
+    border: 1px solid #ac2947;
+    text-align: center;
+    padding: 50px 0px;
+}
+.slider .carousel-item {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+.slider img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 150px;
+    margin-top: 20px;
+}
+.slider h3 {
+    color: #212121;
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 0px;
+}
+.slider p {
+    color: #ac2947;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.slider h2 {
+    color: #fff;
+}
